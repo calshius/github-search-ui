@@ -1,0 +1,17 @@
+.RepositoryList__header {
+  padding-top: 0;
+  padding-bottom: 2em;
+}
+
+.RepositoryList__entry {
+  padding-left: 3em;
+}
+
+.RepositoryList__entry .icon {
+  margin-left: -2.5em;
+}
+
+.RepositoryList__entry__name {
+  margin-left: 0.8em;
+  display: inline-block;
+}

@@ -1,0 +1,55 @@
+.GitHubSearch {
+  height: stretch;
+}
+
+.GitHubSearch__header {
+  background-color: #bcd;
+}
+
+.GitHubSearch__form {
+  padding-bottom: 0px;
+}
+
+.GitHubSearch__spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #aaa;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.GitHubSearch__results {
+}
+
+.GitHubSearch__footer {
+  font-family: monospace;
+  font-size: small;
+  text-align: center;
+  width: 100%;
+  background-color: #eff;
+  position: fixed;
+  bottom: 0;
+}
+
+.GitHubSearch:after {
+  content: ‘\00a0’;
+  display: block;
+  margin-top: var(— space);
+  height: 0;
+  visibility: hidden;
+}
